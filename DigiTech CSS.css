@@ -1,0 +1,154 @@
+*{
+  padding: 0px;
+  margin: 5px;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+    background-color: linen;
+}
+               /* Header area */
+.head {
+    position: sticky;
+    top: 2px;
+     }
+     
+.header {
+    background: rgb(236, 144, 4);
+    height: 6rem;
+}
+h1 {
+    display: block;
+    border: 0.1rem solid none;
+    padding: 1rem 2.5rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+span{
+    color: whitesmoke;
+    border: 0px solid;
+    border-radius: 0.8rem;
+    padding: 0rem 0.5rem;
+    background-color: black;
+}
+h5{
+    display: block;
+    border: 0.1rem solid none;
+    padding: 0rem 3rem;
+    margin: -0.7rem 0rem;
+    font-family: "Handlee", cursive;
+}
+
+              /* Header End */ 
+
+              /* Navigation bar start */ 
+
+div.nav {
+    margin:  -1.5rem 0.2rem;
+}
+div.nav ul {
+    max-width: 100%;
+    margin: 0rem;
+    padding: 0rem;
+    list-style: none;
+    height: 3rem;
+    line-height: 2.5rem;
+    background-color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+div ul li {
+    float: left;
+    border-right: 0.1rem solid none;
+}
+div ul li a {
+    display: block;
+    padding: 0rem 0.5rem;
+    margin: 0rem 0.5rem;
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(23, 201, 14);
+}
+            /* Navigation bar End */ 
+ 
+              
+              /* Body start */
+              
+              
+section {
+    border: 1.5rem;
+    box-shadow: rgb(236, 144, 4);
+}
+
+
+h2 {
+    text-align: center;
+    text-transform: capitalize;
+    color: rgb(23, 130, 201);
+    border: 0px solid none;
+    border-style: groove;
+    background-color: wheat;
+    border-width: 0.2rem;
+    margin: 1.8rem 0rem;
+    padding: 0rem 5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    text-align: justify;
+}
+h3 {
+    font-size: 1.5rem;
+    text-align: center;
+    text-transform: capitalize;
+    color: rgb(23, 130, 201);
+    border: 0px solid none;
+    border-style: groove;
+    background-color: wheat;
+    border-width: 0.2rem;
+    margin: 1rem 0rem;
+    padding: 0rem 5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.h1 {
+  text-align: center;
+  text-transform: capitalize;
+  color: crimson;
+  border: 0.1rem solid gray;
+  border-width: 0.1rem;
+  margin: 0rem 0.1rem;
+  padding: 0.5rem 0.2rem;
+}
+
+
+
+                 /* Body End */
+
+                 /* Footer Start */
+.footer {
+    display: block;
+    border: 0.1rem solid none;
+    padding: 0rem 4rem;
+    background: rgb(23, 201, 214);
+    line-height: 3rem;
+    padding: 1rem 4rem; 
+}
+div.footerbar {
+    background: black;
+    line-height: 1.8rem;
+    padding: 0rem 3rem; 
+    margin: -1.5rem 0.2rem;
+    color: aliceblue;
+    font-size: 0.5rem;
+}
+.section3, .section2, p{
+    margin: 2rem 10 2rem 10;
+}
+       /* Footer End */
+
+       
+       
